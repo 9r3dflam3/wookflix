@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+* {        
+    font-family: "Noto Sans KR", sans-serif;
+} 
+
+.bannerhere {
+    width: 100%;
+    height: 100px;
+    background-image: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FT8ywa%2FbtsGXzt2plO%2FXNCzKj63hwlLU2yEN4Iwlk%2Fimg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.searchHere{
+    width: 10%;
+    height:1%;
+    margin: 0px 0px 0px auto;
+    background-color: yellow;
+
+}
+
+.search {
+    width: 2%;
+    height: 1%;
+    margin: 0px 0px 0px auto;
+}
+
+
+.movieTitle {
+    width:10%;
+    height: 10%;
+    margin: 0.5% auto 0.5% 250px;
+    background-color: aquamarine;
+}
+
+.movieContext{
+    width: 78%;
+    height: 210px;
+    margin: 10px 5% 20px 250px;
+    background-color: cover;
+    background-color: blue;
+
+}
+
+.movieCard {
+    width : 214px;
+    height : 340px;
+    background-size : cover;
+    background-position : center;
+    background-color: chartreuse;
+}
+
+
+.cardhere {
+    width: 95%;
+    height: 350px;
+    margin: 5px auto 0px auto;
+    padding : 20px;
+    background-color: #9a5c5c;
+}
+
