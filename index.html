@@ -1,58 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=cssNew\myStyle.css>
-    <script src="jsNew/movie.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssNew/myStyle.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div>
-<!-- 배너 위치 / 배너 내 search 위치함 -->
-        <div class="bannerhere">
-            <h1>
-            </h1>
-        </div>
+      <div class="bannerhere"></div>
 
-        <div class="searchHere">
-            <div id="search">
-                <button id="changeButton">검색</button>
-                <p id="textArea"></p>
-            </div>
-        </div>
-        <div class="cardhere">
-            <div class="movieCard" id="movieCard">
-                <div class="onCard" id="onCard">
-                </div>
-                <div class="modal" id="alertModal">
-                    <div class="modalText"></div>
-                    <span class = 'close'>
-                        &times;
-                        <p>
-                        </p>
-                    </span>
-                </div>
-            </div>
-            <div class="movieTitle" id="movieTitle">
-                <h2>
-
-                </h2>
-            </div>
-            <div class="movieContext" id="movieContext">
-                <div class="starPoint" id="starPoint">
-                    <h3>
-
-                    </h3>
-                </div>
-            </div>
-        </div>
-
-
+      <div id="searchBarHead">
+        <input id="searchBarBody">
+        <button id="searchBtn" onclick="searchMovieData()">검색</button>
+      </div>
+      <div id="printMovieData"></div>
     </div>
-
-</body>
-
+    <script defer src="jsNew/movie.js"></script>
+  </body>
 </html>

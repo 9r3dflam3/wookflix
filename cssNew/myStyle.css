@@ -11,73 +11,34 @@
     background-position: center; 
 }
 
-.searchHere{
+
+
+
+
+#printMovieData {
+    border: 2px solid yellow;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.eachCard{
+    border: 2px solid blue;
+    margin: 1em;
+    padding: 2px 16px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.searchBarHead{
     width: 10%;
     height:1%;
     margin: 0px 0px 0px auto;
     background-color: yellow;
-
 }
 
-.search {
+.searchBarBody {
     width: 2%;
     height: 1%;
     margin: 0px 0px 0px auto;
-}
-
-
-.movieTitle {
-    width:10%;
-    height: 10%;
-    margin: 0.5% auto 0.5% 250px;
-    background-color: aquamarine;
-}
-
-.movieContext{
-    width: 78%;
-    height: 210px;
-    margin: 10px 5% 20px 250px;
-    background-color: cover;
-    background-color: blue;
-
-}
-
-.movieCard {
-    width : 214px;
-    height : 340px;
-    background-size : cover;
-    background-position : center;
-    background-color: chartreuse;
-}
-
-
-.cardhere {
-    width: 95%;
-    height: 350px;
-    margin: 5px auto 0px auto;
-    padding : 20px;
-    background-color: #9a5c5c;
-}
-
-.modal{
-    display: none;
-    position: fixed;
-    width: 300px;
-    height: 200px;
-    overflow: auto;
-    z-index: 1;
-    background-color: green;
-}
-
-.modalText{
-    background-color: white;
-    margin: auto;
-    /* padding: 20px;*/
-    width: 80%;
-}
-
-.close{
-    color: black;
-    float: right;
-    font-weight: bold;
 }
